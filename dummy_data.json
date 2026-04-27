@@ -1,0 +1,71 @@
+{
+  "accounts": {
+    "user_001": {
+      "account_id": "user_001",
+      "name": "Rahul Sharma",
+      "account_number": "123456789012",
+      "masked_account": "XXXX-XXXX-9012",
+      "balance": 44580.75,
+      "currency": "INR",
+      "account_type": "Savings"
+    }
+  },
+  "beneficiaries": [
+    {
+      "name": "Amit Verma",
+      "bank": "State Bank of India",
+      "account_number": "987654321001",
+      "masked": "XXXX-XXXX-1001"
+    },
+    {
+      "name": "Neha Gupta",
+      "bank": "ICICI Bank",
+      "account_number": "876543210987",
+      "masked": "XXXX-XXXX-0987"
+    },
+    {
+      "name": "Ravi Meena",
+      "bank": "HDFC Bank",
+      "account_number": "765432109876",
+      "masked": "XXXX-XXXX-9876"
+    }
+  ],
+  "recent_transactions": [
+    {
+      "date": "2025-04-27",
+      "description": "Transfer to amit verma",
+      "amount": -100.0,
+      "type": "debit"
+    },
+    {
+      "date": "2025-04-27",
+      "description": "Transfer to amit verma",
+      "amount": -50.0,
+      "type": "debit"
+    },
+    {
+      "date": "2025-04-27",
+      "description": "Transfer to amit verma",
+      "amount": -500.0,
+      "type": "debit"
+    },
+    {
+      "date": "2025-04-20",
+      "description": "ATM Withdrawal",
+      "amount": -2000.0,
+      "type": "debit"
+    },
+    {
+      "date": "2025-04-18",
+      "description": "Salary Credit",
+      "amount": 35000.0,
+      "type": "credit"
+    },
+    {
+      "date": "2025-04-15",
+      "description": "UPI Transfer",
+      "amount": -1500.0,
+      "type": "debit"
+    }
+  ]
+}

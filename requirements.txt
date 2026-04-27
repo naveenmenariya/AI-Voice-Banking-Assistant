@@ -1,0 +1,30 @@
+# Kentiq AI Voice Banking Assistant — Dependencies
+# Install all with:  pip install -r requirements.txt
+
+
+# Voice Input (Speech-to-Text)
+SpeechRecognition==3.10.4
+pyaudio==0.2.14
+# Windows: pip install pipwin && pipwin install pyaudio
+# Linux:   sudo apt install portaudio19-dev python3-dev
+# macOS:   brew install portaudio
+
+
+#  Voice Output (Text-to-Speech)
+pyttsx3==2.90
+
+
+#  Audio Recording (KYC)
+sounddevice==0.4.6
+
+
+#  Video / Image Processing
+opencv-python==4.9.0.80
+
+
+#  NLP / Utilities
+numpy==1.26.4
+word2number==1.1      #for spoken amount parsing
+
+
+pillow==10.3.0        # Helps with image handling
